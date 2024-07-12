@@ -1,0 +1,27 @@
+.accordian{
+    border: none !important;
+  
+    button{
+  border: none !important;
+  background-color: transparent !important;
+  color: White !important;
+
+    }
+  
+    button:hover,button:focus{
+      border: none !important;
+      outline: none !important;
+      color: #3cbeee !important;
+    
+        }
+     
+    
+  }
+  
+  .focus\:ring-gray-200:focus {
+    --tw-ring-color: transparent;
+    --tw-ring-offset-width: 0px;
+    box-shadow: none;
+  }
+  
+  

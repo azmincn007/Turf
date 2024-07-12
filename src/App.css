@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Tabs1{
+  width: 100%;
+
+  div[aria-label="Pills"]{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    button{
+      background-color: transparent;
+      border: 3px solid #3cbeee;
+      border-radius: 25px;
+      padding: 0.7rem 2rem;
+    }
+
+    button[aria-selected="true"]{
+      background-color: #3cbeee;
+    }
+    button:focus{
+      outline: 3px solid #3cbeee !important;
+    }
+   
+  }
+}
+
+.trainingcourse .smalltrlogo{
+      img{
+        width: 130px;
+        height: 130px;
+      }
+}
+
+.image-overlay::after {
+  background: linear-gradient(to right, #3cbeee -40%, #003042 140%);
+  width: 100%;
+  height: 100%;
+  display: block;
+  content: '';
+  overflow: hidden;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  opacity: .3;
+}
+
+.image-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+
+
+div[aria-describedby="drawer-dialog-:r9:"]{
+  display: none !important;
+}
+div[aria-describedby="drawer-dialog-:r5:"]{
+  display: none !important;
+
+}
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar{
+  background: linear-gradient(to right, #3cbeee -40%, #003042 140%);
+}
+
+.footerdown{
+  background: url('https://gnodesign.com/templates/swimmerland/images/img/footer-bg.png') no-repeat #267d9d;
+}
+
